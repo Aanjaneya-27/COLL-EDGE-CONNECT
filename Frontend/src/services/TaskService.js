@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api/tasks"
+    baseURL: "https://coll-edge-connect-2.onrender.com/api/tasks"
 });
 
 export const getTask = () => API.get("/");
